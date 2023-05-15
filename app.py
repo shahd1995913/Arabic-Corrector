@@ -1,6 +1,6 @@
 import streamlit as st
 # Print colored text using Markdown syntax
-st.markdown('<span style="color: green;">some red text</span>', unsafe_allow_html=True)
+st.markdown('<span style="color: green;">Arabic Word Correction Using Artificial Intelligence and Natural Language Processing 2023</span>', unsafe_allow_html=True)
 
 # Styling functions for colored and bold text
 def blue(text):
@@ -10,7 +10,7 @@ def green(text):
     return f'<span style="color: green;">{text}</span>'
 
 # Set a title for the app
-st.title('تطبيق تصحيح النص')
+st.title('Arabic Word Correction')
 
 # Get user input
 text = st.text_input("الرجاء إدخال النص المراد تدقيقه")
