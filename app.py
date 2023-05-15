@@ -1,6 +1,7 @@
 import streamlit as st
 # Print colored text using Markdown syntax
 st.markdown('<span style="color: green;">Arabic Word Correction Using Artificial Intelligence and Natural Language Processing 2023</span>', unsafe_allow_html=True)
+st.markdown('<span style="color: red;">Shahed Al-khateeb</span>', unsafe_allow_html=True)
 
 # Styling functions for colored and bold text
 def blue(text):
